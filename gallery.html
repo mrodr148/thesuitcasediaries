@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale">
+    <title>Photo Gallery</title> <!-- this is the overall page title -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="gallery-header">
+        <h1>Article - Photo Gallery</h1>
+        <nav> <!-- this is the code for the navigation bar -->
+            <div class="hamburger">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Articles</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="photo-gallery">
+        <div class="photo"><img src="Amsterdam river view.png" alt="River street view of Amsterdam."></div>
+        <div class="photo"><img src="Amsterdam dancing houses.png" alt="River boat view of Amsterdam's dancing houses."></div>
+        <div class="photo"><img src="Van Gough sketch book.png" alt="Van Gough sketch book."></div>
+        <div class="photo"><img src="friends at Van Gough.png" alt="Friends and I waiting leaving the Van Gough Museum"></div>
+        <div class="photo"><img src="Screenshot 2024-09-30 at 10.02.09 PM.png" alt="Collection of bikes in a path."></div>
+        <div class="photo"><img src="more bikes.png" alt="Collection of bikes by the riverfront."></div>
+        <div class="photo"><img src="Amsterdam pride poster.png" alt="Amsterdam pride poster."></div>
+        <div class="photo"><img src="Amsterdam tower.png" alt="Etherial view of a tower."></div>
+        <div class="photo"><img src="museum image 0.png" alt="My friend making a funky face and I."></div>
+        <div class="photo"><img src="cafe.png" alt="Cafe in Amsterdam"></div>
+        <div class="photo"><img src="love me.png" alt="Love Me is painted on a wall"></div>
+        <div class="photo"><img src="castle.png" alt="Amsterdam Castle"></div>
+        <div class="photo"><img src="even more bikes.png" alt="Just a load of bikes everywhere"></div>
+        <div class="photo"><img src="toure de eiffel.png" alt="Eifell Tower"></div>
+        <div class="photo"><img src="eiffel tower and a mosc.png" alt="Eiffel Tower and a mosc"></div>
+        <div class="photo"><img src="arc de triumph.png" alt="The Arc of Triumph"></div>
+        <div class="photo"><img src="french roses.png" alt="Pink french roses"></div>
+        <div class="photo"><img src="le louvre.png" alt="Le Louvre"></div>
+        <div class="photo"><img src="another castle.png" alt="Another Castle"></div>
+        <div class="photo"><img src="french castle.png" alt="Another French Castle"></div>
+        <div class="photo"><img src="french room with paint.png" alt="Inside a French Castle with painted gold cielings"></div>
+        <div class="photo"><img src="french garden.png" alt="French Garden with statues"></div>
+        <div class="photo"><img src="frence at night.png" alt="On a birdge in France at night"></div>
+        <div class="photo"><img src="france map.png" alt="Map of France"></div>
+    </main>
+    <!--navigation control will go here. It is not on the page but I wanted to demonstrate that I can do it
+    <div class="gallery-controls">
+        <button id="prev">Previous</button>
+        <button id="nect">Next</button>
+    </div> 
+    -->
+
+    <footer>
+        <p>Contact us at : <a href="mailto:mrodr148@students.kennesaw.edu">mrodr148@students.kennesaw.edu</a> </p>
+     </footer>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+    
+</body>
+</html>

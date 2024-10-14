@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale">
+    <title>Newspaper Landing Page</title> <!-- this is the overall page title -->
+    <link rel="stylesheet" href="css/style.css">  <!-- link to the style sheet -->
+</head>
+<body>
+    <header>
+        <h1>The Suitcase Diaries</h1>  <!-- cute name :) -->
+        <nav> <!-- this is the code for the navigation bar -->
+            <div class="hamburger">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Articles</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Content and Footer will go here -->
+     <main>
+
+        <section class="featured-artcile">
+            <img src="suitcase.png" alt="Inside of the Vaugn Gough Museum" >
+            <h2>Featured Article</h2>
+             <!-- article conent goes here -->
+            <ul>
+                <li><a href="article.html"><h3>Budget Travel: Making the Most of Your Money</h3></a></li>
+                <p>Jennifer, a 25-year-old watercolor artist, finally fulfills her dream of visiting the Van Gogh Museum in Amsterdam with her friends Stacey and Evada. Discover how careful budgeting helped make her artistic pilgrimage a reality.</p>
+                <li><h3>Chasing Sunsets: A Solo Traveler's Journey Through Bali</h3></li>
+                <p>Meet Lauren, a photographer who left her corporate job to explore Bali's stunning landscapes. Learn how she navigates solo travel while balancing a tight budget and capturing unforgettable moments.</p>
+                <li><h3>From Markets to Monuments: Exploring Istanbul on a Budget</h3></li>
+                <p>Follow Michael and his partner, Zoe, as they experience the vibrant streets of Istanbul. From spice markets to historic mosques, they share how they managed to immerse themselves in the city's rich culture without spending a fortune.</p>
+                <li><h3>Across the Andes: Hiking Machu Picchu on a Student Budget</h3></li>
+                <p>Meet Daniel and his friends, who conquered the famous Inca Trail on a student's budget. They share their tips for saving on travel expenses while embracing one of South America's most breathtaking journeys.</p>
+                <li><h3>The Green Traveler: Eco-Friendly Adventures in Costa Rica</h3></li>
+                <p>Discover how Sophia and her partner, Max, explored Costa Rica's natural wonders—rainforests, wildlife, and volcanoes—while keeping their carbon footprint small. Their eco-conscious trip proves you can travel responsibly without overspending.</p>
+                <li><h3>Art and Adventure: A Painter's Road Trip Across the Southwest</h3></li>
+                <p>Travel alongside Nia, a landscape painter, as she embarks on a road trip through the American Southwest. She shares her creative process and how she managed to stretch her funds while finding artistic inspiration in desert landscapes.</p>
+                <li><h3>Paris on Pennies: The Best Free Things to Do in the City of Light</h3></li>
+                <p>Follow Natasha as she spends a week in Paris, discovering the city's art, history, and charm without emptying her wallet. From free museum days to hidden gardens, Natasha reveals how to experience Paris on a shoestring budget.</p>
+                <li><h3>Under the Northern Lights: A Winter Adventure in Norway</h3></li>
+                <p>Josh and Sam's dream of seeing the Northern Lights comes true during a winter trip to Norway. Learn how they kept costs low while chasing one of nature's most breathtaking phenomena.</p>
+                <li><h3>The Thrill of the Unexpected: Backpacking Eastern Europe</h3></li>
+                <p>Join Emma and Riley as they backpack through Eastern Europe, from Prague to Budapest, with nothing but their backpacks and a tight budget. They share the unexpected joys of traveling without a strict plan and how it led to their best experiences.</p>
+                <li><h3>Food on the Fly: Eating Cheap and Local in Southeast Asia</h3></li>
+                <p>Chef and food lover Olivia takes readers on a journey through the bustling street food scenes of Thailand, Vietnam, and Cambodia. She shares her favorite dishes, all on a budget, and how food connects her to the heart of each culture.</p>
+            </ul>
+        </section>
+
+        <section class="latest-news">
+            <h2>Latest Travel News</h2>
+             <!-- news items go here -->
+             <ul>
+                <li><a href="https://www.cnbc.com/2024/10/01/with-hurricane-helene-disrupting-travel-heres-what-fliers-need-to-know.html">CNBC : Hurricane Helene's Disruption on Flights</a>
+                <li><a href="https://media.amtrak.com/2024/10/amtrak-launches-fall-flash-sale-with-discounts-on-northeast-travel/">AMTRAK : Fall Flash Sale for Northeast Treavel</a>
+                <li><a href="https://www.washingtonpost.com/travel/2024/09/21/europe-antitourism-barcelona-santorini-venice/">The Washington Post : The Summer Europe Turned on Tourists/a>
+                <li><a href="https://www.usatoday.com/story/travel/news/2024/09/25/mexico-flights-cruise-hurricane-helene/75376912007/">USA Today : Mexico Travel Changes</a>
+                <li><a href="https://www.independent.ie/life/travel/travel-news/four-irish-hotels-named-among-europes-10-best-resorts-by-conde-nast-traveler/a1408908597.html">Irish Independent : Top Irish Hotels</a>
+                <li><a href="https://loyaltylobby.com/2024/10/01/air-france-klm-flying-blue-october-promo-awards-for-travel-through-march-31-2025/">Loyalty Lobby : Air France Blue October Promotions</a>
+                <li><a href="https://www.transportation.gov/briefing-room/air-travel-consumer-report-july-2024-numbers">U.S. Department of Transportation : Air Travel Consumer Report</a>
+            </ul>
+        </section>
+        <!-- additional section as needed -->
+ 
+     </main>
+
+     <footer>
+        <p>Contact us at : <a href="mailto:mrodr148@students.kennesaw.edu">mrodr148@students.kennesaw.edu</a> </p>
+     </footer>
+
+     <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>    
+
+</body>
+</html>
